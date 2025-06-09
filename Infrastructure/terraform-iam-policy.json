@@ -1,0 +1,32 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ecs:*",
+        "ecr:*",
+        "s3:*",
+        "iam:PassRole",
+        "iam:GetRole",
+        "iam:CreateRole",
+        "iam:DeleteRole",
+        "iam:AttachRolePolicy",
+        "iam:DetachRolePolicy",
+        "iam:PutRolePolicy",
+        "iam:DeleteRolePolicy",
+        "iam:ListRolePolicies",
+        "iam:ListAttachedRolePolicies",
+        "logs:*",
+        "cloudwatch:*",
+        "codedeploy:*",
+        "codebuild:*",
+        "codepipeline:*",
+        "sns:*",
+        "dynamodb:*",
+        "ec2:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+} 
